@@ -24,5 +24,5 @@ def fprim(x):
     return cos(x)
 
 
-x0 = 2
+x0 = 1.5
 zero1 = newtons_method(x0) 
