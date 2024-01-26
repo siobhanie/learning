@@ -7,10 +7,11 @@ Created on Thu Jan 25 16:48:55 2024
 """
 
 from numpy import *
+import numpy as np
 
 def newtons_method(x):
     
-    for i in range(20):
+    for i in range(70):
         x = x - f(x)/fprim(x)
         
         
@@ -18,11 +19,12 @@ def newtons_method(x):
 
 
 def f(x):
-    return sin(x)
+    return np.sin(x)
 
 def fprim(x):
-    return cos(x)
+    return np.cos(x)
 
 
 x0 = 1.5
 zero1 = newtons_method(x0) 
+print(zero1)
