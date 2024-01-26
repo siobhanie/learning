@@ -11,7 +11,7 @@ import numpy as np
 
 def newtons_method(x):
     
-    for i in range(70):
+    for i in range(80):
         x = x - f(x)/fprim(x)
         
         
