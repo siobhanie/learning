@@ -19,10 +19,10 @@ def newtons_method(x):
 
 
 def f(x):
-    return np.sin(x)
+    return np.cos(x)
 
 def fprim(x):
-    return np.cos(x)
+    return -np.sin(x)
 
 
 x0 = 2
